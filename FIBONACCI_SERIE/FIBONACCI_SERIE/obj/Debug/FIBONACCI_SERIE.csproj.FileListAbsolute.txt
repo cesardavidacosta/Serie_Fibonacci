@@ -1,0 +1,7 @@
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\bin\Debug\FIBONACCI_SERIE.exe.config
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\bin\Debug\FIBONACCI_SERIE.exe
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\bin\Debug\FIBONACCI_SERIE.pdb
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\obj\Debug\FIBONACCI_SERIE.csproj.AssemblyReference.cache
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\obj\Debug\FIBONACCI_SERIE.csproj.CoreCompileInputs.cache
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\obj\Debug\FIBONACCI_SERIE.exe
+C:\Users\cdaco\source\repos\FIBONACCI_SERIE\FIBONACCI_SERIE\obj\Debug\FIBONACCI_SERIE.pdb
