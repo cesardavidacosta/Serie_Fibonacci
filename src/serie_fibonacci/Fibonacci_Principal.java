@@ -22,7 +22,7 @@ public class Fibonacci_Principal {
         for (int i = 0; i <4; i++) {
             System.out.println("el numero segun la serie es: " + calculos.SerieFibonacci(i));
      
-            System.out.println("el numero obtenido de la serie es primo: " + calculos.numprimo(i));
+            System.out.println("el numero obtenido de la serie es primo: " + calculos.NumPrimo(i));
 
         }
     }

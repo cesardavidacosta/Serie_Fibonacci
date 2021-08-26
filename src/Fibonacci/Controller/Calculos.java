@@ -10,28 +10,28 @@ package Fibonacci.Controller;
  * @author cdaco
  */
 public class Calculos {
-    public int SerieFibonacci(int num) {
-        if (num > 1) {
-            return SerieFibonacci(num - 1) + (num - 2);
-        } else if (num == 1) {
+    public int SerieFibonacci(int numero) {
+        if (numero > 1) {
+            return SerieFibonacci(numero - 1) + (numero - 2);
+        } else if (numero== 1) {
             return 1;
-        } else if (num == 0) {
+        } else if (numero == 0) {
             return 0;
         } else {
             System.out.println("el numero ingresado no es valido");
             return -1;
         }
     }
-    public boolean numprimo(int num) {
-        boolean numero = true;
+    public boolean NumPrimo(int numero) {
+        boolean num = true;
         int divisor = 2;
-        while ((numero) && (divisor != num)) {
-            if ((num % divisor == 0)) {
-                numero = false;
+        while ((num) && (divisor != numero)) {
+            if ((numero % divisor == 0)) {
+                num = false;
             } else {
                 divisor++;
             }
         }
-        return numero;
+        return num;
     }
 }
