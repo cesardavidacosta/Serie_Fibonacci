@@ -8,7 +8,8 @@ package serie_fibonacci;
 import Fibonacci.Controller.Calculos;
 
 /**
- *
+ * Llamado de los metodos para imprimir los resultados
+ * @version 1.0.1
  * @author cdaco
  */
 public class Fibonacci_Principal {

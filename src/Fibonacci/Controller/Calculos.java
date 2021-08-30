@@ -13,7 +13,7 @@ public class Calculos {
     public int SerieFibonacci(int numero) {
         if (numero > 1) {
             return SerieFibonacci(numero - 1) + (numero - 2);
-        } else if (numero== 1) {
+        } else if (numero == 1) {
             return 1;
         } else if (numero == 0) {
             return 0;
@@ -22,16 +22,17 @@ public class Calculos {
             return -1;
         }
     }
-    public boolean NumPrimo(int numero) {
-        boolean num = true;
+    public Boolean NumPrimo(int numeroPrimo) {
         int divisor = 2;
-        while ((num) && (divisor != numero)) {
-            if ((numero % divisor == 0)) {
-                num = false;
+        Boolean validarPrimo = true;
+         //variable de tipo WRAPPER
+        while ((validarPrimo) && (divisor != numeroPrimo)) {
+            if ((numeroPrimo % divisor == 0)) {
+                validarPrimo = false;
             } else {
                 divisor++;
             }
         }
-        return num;
+        return validarPrimo;
     }
 }
